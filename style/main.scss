@@ -1,0 +1,42 @@
+.main {
+    flex: 1 1 auto;
+
+    &-content {
+        padding-top: 150px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    &-logo {
+        font-size: 40px;
+
+    }
+    &-form {
+        padding-top: 50px;
+        margin-bottom: 40px;
+        &__task {
+        }
+        &__input {
+            border-radius: 30px;
+            padding: 5px;
+            border: 1px solid black;
+        }
+        &__button {
+            background-color: #fff;
+            border-radius: 20px;
+            padding: 5px;
+            border: 1px solid black;
+        }
+
+    }
+    &-completed {
+        padding-top: 80px;
+        margin-bottom: 20px;
+    }
+    &-coTasks {
+        li {
+            padding-top: 15px;
+            font-size: 25px;
+        }
+    }
+}

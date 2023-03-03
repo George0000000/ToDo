@@ -1,0 +1,21 @@
+//FONTS
+
+wrapper {
+    min-height: 100%;
+    min-width: 100vw;
+    display: flex;
+    flex-direction: column;
+}
+
+body {
+    font-size: 30px;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+@import 'main';
+@import 'header';
+@import 'footer';

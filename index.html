@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=7">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/reset.css">
+    <link rel="stylesheet" href="style/style.css" />
+    <title>Todo Nirvana</title>
+</head>
+<body>
+
+    <div class="wrapper">
+        <div class="header">
+            <div class="container">
+                <div class="header-content">
+
+                    <div class="header-logo">
+                        <img src="img/logo.svg" alt="" class="header-logo__img">
+                        <div class="header-logo__text">ToDo</div>
+                    </div>
+
+                    <div class="header-profile">
+                        <div class="header-profile__name">profile</div>
+                        <div class="header-profile__icon"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <main class="main">
+            <div class="container">
+                <div class="main-content">
+                    <h1 class="main-logo">Todo List</h1>
+                    <form class="main-form">
+                        <label for="task" class="main-form__task">Task:</label>
+                        <input type="text" id="task" name="task" class="main-form__input">
+                        <label for="date" class="main-form__date">Date:</label>
+                        <input type="date" id="date" name="date" class="main-form__input">
+                        <button type="submit" class="main-form__button">Add Task</button>
+                    </form>
+                    <ul id="taskList"></ul>
+                    <h2 class="main-completed">Completed Tasks</h2>
+                    <ul id="completedTasks" class="main-coTasks"></ul>
+                </div>
+            </div>
+        </main>
+
+        <footer class="footer">
+            <div class="container">
+            </div>
+        </footer>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
